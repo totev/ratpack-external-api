@@ -11,4 +11,4 @@ The server runs and listens on port 5050 and currently has 2 registered endpoint
  - /api/simpsons
  - /api/starwars
  
-The first one uses the core http client from *io.github.http-builder-ng* and the other one *ratpack.http.client*.
+The first one uses the apache http client from *io.github.http-builder-ng* and the other one *ratpack.http.client*.
