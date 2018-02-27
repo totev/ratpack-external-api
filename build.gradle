@@ -15,6 +15,6 @@ repositories {
 }
 
 dependencies {
-  compile 'io.github.http-builder-ng:http-builder-ng-core:1.0.3'
+  compile 'io.github.http-builder-ng:http-builder-ng-apache:1.0.3'
   runtime "org.slf4j:slf4j-simple:1.7.25"
 }

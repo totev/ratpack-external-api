@@ -1,3 +1,4 @@
+import groovyx.net.http.ApacheHttpBuilder
 import groovyx.net.http.HttpBuilder
 import ratpack.exec.Blocking
 import static ratpack.groovy.Groovy.ratpack
@@ -30,7 +31,7 @@ ratpack {
             get('simpsons', {
 
                 Blocking.get {
-                    HttpBuilder.configure {
+                    ApacheHttpBuilder.configure {
                         request.raw = 'https://thesimpsonsquoteapi.glitch.me/quotes'
                     }.get()
 
